@@ -1,0 +1,44 @@
+{
+  "Menu_Contacto": {
+    "GetFieldBy": "XPATH",
+    "ValueToFind": "//*[contains(text(), 'Contacto')]"
+  },
+  "Tel_Servicio_Cliente": {
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//a[@title='celular']"
+  },
+  "NAME": {
+    "GetFieldBy": "id",
+    "ValueToFind": "et_pb_contact_first_0"
+  },
+
+  "LASTNAME": {
+    "GetFieldBy": "id",
+    "ValueToFind": "et_pb_contact_last_0"
+  },
+
+  "EMAIL": {
+    "GetFieldBy": "id",
+    "ValueToFind": "et_pb_contact_email_0"
+  },
+
+  "PHONE_NUMBER": {
+    "GetFieldBy": "id",
+    "ValueToFind": "et_pb_contact_phone_0"
+  },
+
+  "MESSAGE": {
+    "GetFieldBy": "id",
+    "ValueToFind": "et_pb_contact_message_0"
+  },
+
+  "BTN_SEND": {
+    "GetFieldBy": "name",
+    "ValueToFind": "et_builder_submit_button"
+  },
+
+  "NOTIFY": {
+    "GetFieldBy": "id",
+    "ValueToFind": "et-pb-contact-message"
+  }
+}

@@ -1,0 +1,8 @@
+cd projecto
+mvn -X clean
+mvn -X dependency:list 
+mvn -X copy-dependencies 
+mvn -X compile 
+mvn –X test
+mvn allure:report
+Mvn allure:serve
